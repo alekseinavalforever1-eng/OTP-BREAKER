@@ -1,0 +1,13 @@
+{
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.detectExtensionConflicts": true,
+  "clangd.arguments": [
+    "--background-index",
+    "--clang-tidy",
+    "--completion-style=detailed",
+    "--header-insertion=never"
+  ],
+  "files.exclude": {
+    "**/*.class": true
+  }
+}

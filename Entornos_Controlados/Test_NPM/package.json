@@ -1,0 +1,20 @@
+{
+  "name": "test-npm-otp-vulnerable",
+  "version": "1.0.0",
+  "description": "Entorno controlado de laboratorio para evaluar la vulnerabilidad CVE-2021-23451 en otp-generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test-generador": "node test_generador.js"
+  },
+  "keywords": [
+    "otp",
+    "security-testbed",
+    "cve-2021-23451"
+  ],
+  "author": "Julián Narváez",
+  "license": "ISC",
+  "dependencies": {
+    "otp-generator": "2.0.1"
+  }
+}
